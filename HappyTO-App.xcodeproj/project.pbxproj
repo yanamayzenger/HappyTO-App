@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CE8203F2C42F61B007CEB0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8203E2C42F61B007CEB0F /* AppDelegate.swift */; };
+		8CE820412C42F61B007CEB0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE820402C42F61B007CEB0F /* SceneDelegate.swift */; };
+		8CE820432C42F61B007CEB0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE820422C42F61B007CEB0F /* ViewController.swift */; };
+		8CE820462C42F61B007CEB0F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820452C42F61B007CEB0F /* Base */; };
+		8CE820482C42F61E007CEB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820472C42F61E007CEB0F /* Assets.xcassets */; };
+		8CE8204B2C42F61E007CEB0F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8204A2C42F61E007CEB0F /* Base */; };
+		8CE820562C42F61E007CEB0F /* HappyTO_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE820552C42F61E007CEB0F /* HappyTO_AppTests.swift */; };
+		8CE820602C42F61E007CEB0F /* HappyTO_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8205F2C42F61E007CEB0F /* HappyTO_AppUITests.swift */; };
+		8CE820622C42F61E007CEB0F /* HappyTO_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE820612C42F61E007CEB0F /* HappyTO_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CE820522C42F61E007CEB0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CE820332C42F61B007CEB0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE8203A2C42F61B007CEB0F;
+			remoteInfo = "HappyTO-App";
+		};
+		8CE8205C2C42F61E007CEB0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CE820332C42F61B007CEB0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE8203A2C42F61B007CEB0F;
+			remoteInfo = "HappyTO-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CE8203B2C42F61B007CEB0F /* HappyTO-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HappyTO-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE8203E2C42F61B007CEB0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CE820402C42F61B007CEB0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8CE820422C42F61B007CEB0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CE820452C42F61B007CEB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CE820472C42F61E007CEB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CE8204A2C42F61E007CEB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CE8204C2C42F61E007CEB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE820512C42F61E007CEB0F /* HappyTO-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HappyTO-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE820552C42F61E007CEB0F /* HappyTO_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyTO_AppTests.swift; sourceTree = "<group>"; };
+		8CE8205B2C42F61E007CEB0F /* HappyTO-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HappyTO-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE8205F2C42F61E007CEB0F /* HappyTO_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyTO_AppUITests.swift; sourceTree = "<group>"; };
+		8CE820612C42F61E007CEB0F /* HappyTO_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyTO_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CE820382C42F61B007CEB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE8204E2C42F61E007CEB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE820582C42F61E007CEB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CE820322C42F61B007CEB0F = {
+			isa = PBXGroup;
+			children = (
+				8CE8203D2C42F61B007CEB0F /* HappyTO-App */,
+				8CE820542C42F61E007CEB0F /* HappyTO-AppTests */,
+				8CE8205E2C42F61E007CEB0F /* HappyTO-AppUITests */,
+				8CE8203C2C42F61B007CEB0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CE8203C2C42F61B007CEB0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CE8203B2C42F61B007CEB0F /* HappyTO-App.app */,
+				8CE820512C42F61E007CEB0F /* HappyTO-AppTests.xctest */,
+				8CE8205B2C42F61E007CEB0F /* HappyTO-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CE8203D2C42F61B007CEB0F /* HappyTO-App */ = {
+			isa = PBXGroup;
+			children = (
+				8CE8203E2C42F61B007CEB0F /* AppDelegate.swift */,
+				8CE820402C42F61B007CEB0F /* SceneDelegate.swift */,
+				8CE820422C42F61B007CEB0F /* ViewController.swift */,
+				8CE820442C42F61B007CEB0F /* Main.storyboard */,
+				8CE820472C42F61E007CEB0F /* Assets.xcassets */,
+				8CE820492C42F61E007CEB0F /* LaunchScreen.storyboard */,
+				8CE8204C2C42F61E007CEB0F /* Info.plist */,
+			);
+			path = "HappyTO-App";
+			sourceTree = "<group>";
+		};
+		8CE820542C42F61E007CEB0F /* HappyTO-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CE820552C42F61E007CEB0F /* HappyTO_AppTests.swift */,
+			);
+			path = "HappyTO-AppTests";
+			sourceTree = "<group>";
+		};
+		8CE8205E2C42F61E007CEB0F /* HappyTO-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CE8205F2C42F61E007CEB0F /* HappyTO_AppUITests.swift */,
+				8CE820612C42F61E007CEB0F /* HappyTO_AppUITestsLaunchTests.swift */,
+			);
+			path = "HappyTO-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CE8203A2C42F61B007CEB0F /* HappyTO-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE820652C42F61E007CEB0F /* Build configuration list for PBXNativeTarget "HappyTO-App" */;
+			buildPhases = (
+				8CE820372C42F61B007CEB0F /* Sources */,
+				8CE820382C42F61B007CEB0F /* Frameworks */,
+				8CE820392C42F61B007CEB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HappyTO-App";
+			productName = "HappyTO-App";
+			productReference = 8CE8203B2C42F61B007CEB0F /* HappyTO-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CE820502C42F61E007CEB0F /* HappyTO-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE820682C42F61E007CEB0F /* Build configuration list for PBXNativeTarget "HappyTO-AppTests" */;
+			buildPhases = (
+				8CE8204D2C42F61E007CEB0F /* Sources */,
+				8CE8204E2C42F61E007CEB0F /* Frameworks */,
+				8CE8204F2C42F61E007CEB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CE820532C42F61E007CEB0F /* PBXTargetDependency */,
+			);
+			name = "HappyTO-AppTests";
+			productName = "HappyTO-AppTests";
+			productReference = 8CE820512C42F61E007CEB0F /* HappyTO-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CE8205A2C42F61E007CEB0F /* HappyTO-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE8206B2C42F61E007CEB0F /* Build configuration list for PBXNativeTarget "HappyTO-AppUITests" */;
+			buildPhases = (
+				8CE820572C42F61E007CEB0F /* Sources */,
+				8CE820582C42F61E007CEB0F /* Frameworks */,
+				8CE820592C42F61E007CEB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CE8205D2C42F61E007CEB0F /* PBXTargetDependency */,
+			);
+			name = "HappyTO-AppUITests";
+			productName = "HappyTO-AppUITests";
+			productReference = 8CE8205B2C42F61E007CEB0F /* HappyTO-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CE820332C42F61B007CEB0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8CE8203A2C42F61B007CEB0F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8CE820502C42F61E007CEB0F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8CE8203A2C42F61B007CEB0F;
+					};
+					8CE8205A2C42F61E007CEB0F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8CE8203A2C42F61B007CEB0F;
+					};
+				};
+			};
+			buildConfigurationList = 8CE820362C42F61B007CEB0F /* Build configuration list for PBXProject "HappyTO-App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CE820322C42F61B007CEB0F;
+			productRefGroup = 8CE8203C2C42F61B007CEB0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CE8203A2C42F61B007CEB0F /* HappyTO-App */,
+				8CE820502C42F61E007CEB0F /* HappyTO-AppTests */,
+				8CE8205A2C42F61E007CEB0F /* HappyTO-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CE820392C42F61B007CEB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE820482C42F61E007CEB0F /* Assets.xcassets in Resources */,
+				8CE8204B2C42F61E007CEB0F /* Base in Resources */,
+				8CE820462C42F61B007CEB0F /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE8204F2C42F61E007CEB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE820592C42F61E007CEB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CE820372C42F61B007CEB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE820432C42F61B007CEB0F /* ViewController.swift in Sources */,
+				8CE8203F2C42F61B007CEB0F /* AppDelegate.swift in Sources */,
+				8CE820412C42F61B007CEB0F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE8204D2C42F61E007CEB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE820562C42F61E007CEB0F /* HappyTO_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE820572C42F61E007CEB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE820622C42F61E007CEB0F /* HappyTO_AppUITestsLaunchTests.swift in Sources */,
+				8CE820602C42F61E007CEB0F /* HappyTO_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CE820532C42F61E007CEB0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CE8203A2C42F61B007CEB0F /* HappyTO-App */;
+			targetProxy = 8CE820522C42F61E007CEB0F /* PBXContainerItemProxy */;
+		};
+		8CE8205D2C42F61E007CEB0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CE8203A2C42F61B007CEB0F /* HappyTO-App */;
+			targetProxy = 8CE8205C2C42F61E007CEB0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CE820442C42F61B007CEB0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE820452C42F61B007CEB0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CE820492C42F61E007CEB0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE8204A2C42F61E007CEB0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CE820632C42F61E007CEB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CE820642C42F61E007CEB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CE820662C42F61E007CEB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HappyTO-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yana-Mayzenger.HappyTO-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CE820672C42F61E007CEB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HappyTO-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yana-Mayzenger.HappyTO-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CE820692C42F61E007CEB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yana-Mayzenger.HappyTO-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyTO-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HappyTO-App";
+			};
+			name = Debug;
+		};
+		8CE8206A2C42F61E007CEB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yana-Mayzenger.HappyTO-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyTO-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HappyTO-App";
+			};
+			name = Release;
+		};
+		8CE8206C2C42F61E007CEB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yana-Mayzenger.HappyTO-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HappyTO-App";
+			};
+			name = Debug;
+		};
+		8CE8206D2C42F61E007CEB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yana-Mayzenger.HappyTO-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HappyTO-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CE820362C42F61B007CEB0F /* Build configuration list for PBXProject "HappyTO-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE820632C42F61E007CEB0F /* Debug */,
+				8CE820642C42F61E007CEB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE820652C42F61E007CEB0F /* Build configuration list for PBXNativeTarget "HappyTO-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE820662C42F61E007CEB0F /* Debug */,
+				8CE820672C42F61E007CEB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE820682C42F61E007CEB0F /* Build configuration list for PBXNativeTarget "HappyTO-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE820692C42F61E007CEB0F /* Debug */,
+				8CE8206A2C42F61E007CEB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE8206B2C42F61E007CEB0F /* Build configuration list for PBXNativeTarget "HappyTO-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE8206C2C42F61E007CEB0F /* Debug */,
+				8CE8206D2C42F61E007CEB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CE820332C42F61B007CEB0F /* Project object */;
+}
