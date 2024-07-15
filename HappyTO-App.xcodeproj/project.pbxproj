@@ -16,6 +16,13 @@
 		8CE820562C42F61E007CEB0F /* HappyTO_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE820552C42F61E007CEB0F /* HappyTO_AppTests.swift */; };
 		8CE820602C42F61E007CEB0F /* HappyTO_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8205F2C42F61E007CEB0F /* HappyTO_AppUITests.swift */; };
 		8CE820622C42F61E007CEB0F /* HappyTO_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE820612C42F61E007CEB0F /* HappyTO_AppUITestsLaunchTests.swift */; };
+		8CE820742C4482B3007CEB0F /* happyHourDeals.json in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820732C4482B3007CEB0F /* happyHourDeals.json */; };
+		8CE820762C448435007CEB0F /* logo-happyTO.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820752C448435007CEB0F /* logo-happyTO.png */; };
+		8CE820782C44848B007CEB0F /* home.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820772C44848B007CEB0F /* home.JPG */; };
+		8CE8207C2C44B132007CEB0F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8207B2C44B132007CEB0F /* HomeViewController.swift */; };
+		8CE8207E2C44B212007CEB0F /* RestaurantDeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8207D2C44B212007CEB0F /* RestaurantDeal.swift */; };
+		8CE820802C44B293007CEB0F /* DealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8207F2C44B293007CEB0F /* DealCell.swift */; };
+		8CE820822C4539B9007CEB0F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE820812C4539B9007CEB0F /* SplashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		8CE8205B2C42F61E007CEB0F /* HappyTO-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HappyTO-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE8205F2C42F61E007CEB0F /* HappyTO_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyTO_AppUITests.swift; sourceTree = "<group>"; };
 		8CE820612C42F61E007CEB0F /* HappyTO_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyTO_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CE820732C4482B3007CEB0F /* happyHourDeals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = happyHourDeals.json; path = ../../../happyHourDeals.json; sourceTree = "<group>"; };
+		8CE820752C448435007CEB0F /* logo-happyTO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-happyTO.png"; path = "../../../../Downloads/logo-happyTO.png"; sourceTree = "<group>"; };
+		8CE820772C44848B007CEB0F /* home.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = home.JPG; path = ../../../../Downloads/home.JPG; sourceTree = "<group>"; };
+		8CE8207B2C44B132007CEB0F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8CE8207D2C44B212007CEB0F /* RestaurantDeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDeal.swift; sourceTree = "<group>"; };
+		8CE8207F2C44B293007CEB0F /* DealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCell.swift; sourceTree = "<group>"; };
+		8CE820812C4539B9007CEB0F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +113,18 @@
 		8CE8203D2C42F61B007CEB0F /* HappyTO-App */ = {
 			isa = PBXGroup;
 			children = (
+				8CE820702C44818F007CEB0F /* Resources */,
 				8CE8203E2C42F61B007CEB0F /* AppDelegate.swift */,
 				8CE820402C42F61B007CEB0F /* SceneDelegate.swift */,
 				8CE820422C42F61B007CEB0F /* ViewController.swift */,
 				8CE820442C42F61B007CEB0F /* Main.storyboard */,
+				8CE8207F2C44B293007CEB0F /* DealCell.swift */,
 				8CE820472C42F61E007CEB0F /* Assets.xcassets */,
 				8CE820492C42F61E007CEB0F /* LaunchScreen.storyboard */,
 				8CE8204C2C42F61E007CEB0F /* Info.plist */,
+				8CE8207B2C44B132007CEB0F /* HomeViewController.swift */,
+				8CE8207D2C44B212007CEB0F /* RestaurantDeal.swift */,
+				8CE820812C4539B9007CEB0F /* SplashViewController.swift */,
 			);
 			path = "HappyTO-App";
 			sourceTree = "<group>";
@@ -125,6 +144,16 @@
 				8CE820612C42F61E007CEB0F /* HappyTO_AppUITestsLaunchTests.swift */,
 			);
 			path = "HappyTO-AppUITests";
+			sourceTree = "<group>";
+		};
+		8CE820702C44818F007CEB0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CE820772C44848B007CEB0F /* home.JPG */,
+				8CE820752C448435007CEB0F /* logo-happyTO.png */,
+				8CE820732C4482B3007CEB0F /* happyHourDeals.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +260,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE820782C44848B007CEB0F /* home.JPG in Resources */,
+				8CE820742C4482B3007CEB0F /* happyHourDeals.json in Resources */,
 				8CE820482C42F61E007CEB0F /* Assets.xcassets in Resources */,
 				8CE8204B2C42F61E007CEB0F /* Base in Resources */,
 				8CE820462C42F61B007CEB0F /* Base in Resources */,
+				8CE820762C448435007CEB0F /* logo-happyTO.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +293,10 @@
 				8CE820432C42F61B007CEB0F /* ViewController.swift in Sources */,
 				8CE8203F2C42F61B007CEB0F /* AppDelegate.swift in Sources */,
 				8CE820412C42F61B007CEB0F /* SceneDelegate.swift in Sources */,
+				8CE820802C44B293007CEB0F /* DealCell.swift in Sources */,
+				8CE8207C2C44B132007CEB0F /* HomeViewController.swift in Sources */,
+				8CE820822C4539B9007CEB0F /* SplashViewController.swift in Sources */,
+				8CE8207E2C44B212007CEB0F /* RestaurantDeal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,15 +476,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "HappyTO-App/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,15 +506,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "HappyTO-App/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
