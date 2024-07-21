@@ -1,9 +1,3 @@
-//
-//  SplashViewController.swift
-//  HappyTO-App
-//
-//  Created by Yana Mayzenger on 15/07/2024.
-//
 
 import UIKit
 

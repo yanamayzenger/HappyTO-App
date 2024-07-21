@@ -1,10 +1,3 @@
-//
-//  DealCell.swift
-//  HappyTO-App
-//
-//  Created by Yana Mayzenger on 14/07/2024.
-//
-
 import UIKit
 
 class DealCell: UITableViewCell {

@@ -4,7 +4,7 @@ class HomeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     @IBOutlet weak var dayLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var dayPicker: UIPickerView!
-    @IBOutlet weak var backgroundImageView: UIImageView! // Ensure this IBOutlet is connected in the storyboard
+    @IBOutlet weak var backgroundImageView: UIImageView!
 
     var deals: [RestaurantDeal] = []
     let daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
