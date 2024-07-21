@@ -10,19 +10,33 @@
 		8CE8203F2C42F61B007CEB0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8203E2C42F61B007CEB0F /* AppDelegate.swift */; };
 		8CE820412C42F61B007CEB0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE820402C42F61B007CEB0F /* SceneDelegate.swift */; };
 		8CE820432C42F61B007CEB0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE820422C42F61B007CEB0F /* ViewController.swift */; };
-		8CE820462C42F61B007CEB0F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820452C42F61B007CEB0F /* Base */; };
 		8CE820482C42F61E007CEB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820472C42F61E007CEB0F /* Assets.xcassets */; };
 		8CE8204B2C42F61E007CEB0F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8204A2C42F61E007CEB0F /* Base */; };
 		8CE820562C42F61E007CEB0F /* HappyTO_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE820552C42F61E007CEB0F /* HappyTO_AppTests.swift */; };
 		8CE820602C42F61E007CEB0F /* HappyTO_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8205F2C42F61E007CEB0F /* HappyTO_AppUITests.swift */; };
 		8CE820622C42F61E007CEB0F /* HappyTO_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE820612C42F61E007CEB0F /* HappyTO_AppUITestsLaunchTests.swift */; };
-		8CE820742C4482B3007CEB0F /* happyHourDeals.json in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820732C4482B3007CEB0F /* happyHourDeals.json */; };
-		8CE820762C448435007CEB0F /* logo-happyTO.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820752C448435007CEB0F /* logo-happyTO.png */; };
-		8CE820782C44848B007CEB0F /* home.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820772C44848B007CEB0F /* home.JPG */; };
 		8CE8207C2C44B132007CEB0F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8207B2C44B132007CEB0F /* HomeViewController.swift */; };
 		8CE8207E2C44B212007CEB0F /* RestaurantDeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8207D2C44B212007CEB0F /* RestaurantDeal.swift */; };
 		8CE820802C44B293007CEB0F /* DealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8207F2C44B293007CEB0F /* DealCell.swift */; };
 		8CE820822C4539B9007CEB0F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE820812C4539B9007CEB0F /* SplashViewController.swift */; };
+		8CE820BA2C4C62F4007CEB0F /* logo-happyto 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8209F2C4C62F4007CEB0F /* logo-happyto 2.JPG */; };
+		8CE820BB2C4C62F4007CEB0F /* logo-happyto 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8209F2C4C62F4007CEB0F /* logo-happyto 2.JPG */; };
+		8CE820BC2C4C62F4007CEB0F /* logo-happyto 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8209F2C4C62F4007CEB0F /* logo-happyto 2.JPG */; };
+		8CE820BD2C4C62F4007CEB0F /* logo-happyto 2@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820A02C4C62F4007CEB0F /* logo-happyto 2@3x.jpg */; };
+		8CE820BE2C4C62F4007CEB0F /* logo-happyto 2@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820A02C4C62F4007CEB0F /* logo-happyto 2@3x.jpg */; };
+		8CE820BF2C4C62F4007CEB0F /* logo-happyto 2@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820A02C4C62F4007CEB0F /* logo-happyto 2@3x.jpg */; };
+		8CE820C02C4C62F4007CEB0F /* logo-happyTO.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820A12C4C62F4007CEB0F /* logo-happyTO.png */; };
+		8CE820C12C4C62F4007CEB0F /* logo-happyTO.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820A12C4C62F4007CEB0F /* logo-happyTO.png */; };
+		8CE820C22C4C62F4007CEB0F /* logo-happyTO.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820A12C4C62F4007CEB0F /* logo-happyTO.png */; };
+		8CE820C72C4D769D007CEB0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820492C42F61E007CEB0F /* LaunchScreen.storyboard */; };
+		8CE820C82C4D76A0007CEB0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820492C42F61E007CEB0F /* LaunchScreen.storyboard */; };
+		8CE820C92C4D76A0007CEB0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820492C42F61E007CEB0F /* LaunchScreen.storyboard */; };
+		8CE820CB2C4D7BAF007CEB0F /* logo-cut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820CA2C4D7BAF007CEB0F /* logo-cut.jpg */; };
+		8CE820CC2C4D7BAF007CEB0F /* logo-cut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820CA2C4D7BAF007CEB0F /* logo-cut.jpg */; };
+		8CE820CD2C4D7BAF007CEB0F /* logo-cut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820CA2C4D7BAF007CEB0F /* logo-cut.jpg */; };
+		8CE820CE2C4D86DE007CEB0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820442C42F61B007CEB0F /* Main.storyboard */; };
+		8CE820CF2C4D86DF007CEB0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820442C42F61B007CEB0F /* Main.storyboard */; };
+		8CE820D02C4D86DF007CEB0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE820442C42F61B007CEB0F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +70,14 @@
 		8CE8205B2C42F61E007CEB0F /* HappyTO-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HappyTO-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE8205F2C42F61E007CEB0F /* HappyTO_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyTO_AppUITests.swift; sourceTree = "<group>"; };
 		8CE820612C42F61E007CEB0F /* HappyTO_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyTO_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		8CE820732C4482B3007CEB0F /* happyHourDeals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = happyHourDeals.json; path = ../../../happyHourDeals.json; sourceTree = "<group>"; };
-		8CE820752C448435007CEB0F /* logo-happyTO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-happyTO.png"; path = "../../../../Downloads/logo-happyTO.png"; sourceTree = "<group>"; };
-		8CE820772C44848B007CEB0F /* home.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = home.JPG; path = ../../../../Downloads/home.JPG; sourceTree = "<group>"; };
 		8CE8207B2C44B132007CEB0F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8CE8207D2C44B212007CEB0F /* RestaurantDeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDeal.swift; sourceTree = "<group>"; };
 		8CE8207F2C44B293007CEB0F /* DealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCell.swift; sourceTree = "<group>"; };
 		8CE820812C4539B9007CEB0F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		8CE8209F2C4C62F4007CEB0F /* logo-happyto 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-happyto 2.JPG"; sourceTree = "<group>"; };
+		8CE820A02C4C62F4007CEB0F /* logo-happyto 2@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-happyto 2@3x.jpg"; sourceTree = "<group>"; };
+		8CE820A12C4C62F4007CEB0F /* logo-happyTO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-happyTO.png"; sourceTree = "<group>"; };
+		8CE820CA2C4D7BAF007CEB0F /* logo-cut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-cut.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,18 +128,22 @@
 		8CE8203D2C42F61B007CEB0F /* HappyTO-App */ = {
 			isa = PBXGroup;
 			children = (
-				8CE820702C44818F007CEB0F /* Resources */,
 				8CE8203E2C42F61B007CEB0F /* AppDelegate.swift */,
 				8CE820402C42F61B007CEB0F /* SceneDelegate.swift */,
 				8CE820422C42F61B007CEB0F /* ViewController.swift */,
 				8CE820442C42F61B007CEB0F /* Main.storyboard */,
 				8CE8207F2C44B293007CEB0F /* DealCell.swift */,
 				8CE820472C42F61E007CEB0F /* Assets.xcassets */,
+				8CE820CA2C4D7BAF007CEB0F /* logo-cut.jpg */,
+				8CE8209F2C4C62F4007CEB0F /* logo-happyto 2.JPG */,
+				8CE820A02C4C62F4007CEB0F /* logo-happyto 2@3x.jpg */,
+				8CE820A12C4C62F4007CEB0F /* logo-happyTO.png */,
+				8CE820832C4C5192007CEB0F /* Home */,
 				8CE820492C42F61E007CEB0F /* LaunchScreen.storyboard */,
 				8CE8204C2C42F61E007CEB0F /* Info.plist */,
+				8CE820812C4539B9007CEB0F /* SplashViewController.swift */,
 				8CE8207B2C44B132007CEB0F /* HomeViewController.swift */,
 				8CE8207D2C44B212007CEB0F /* RestaurantDeal.swift */,
-				8CE820812C4539B9007CEB0F /* SplashViewController.swift */,
 			);
 			path = "HappyTO-App";
 			sourceTree = "<group>";
@@ -146,14 +165,11 @@
 			path = "HappyTO-AppUITests";
 			sourceTree = "<group>";
 		};
-		8CE820702C44818F007CEB0F /* Resources */ = {
+		8CE820832C4C5192007CEB0F /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				8CE820772C44848B007CEB0F /* home.JPG */,
-				8CE820752C448435007CEB0F /* logo-happyTO.png */,
-				8CE820732C4482B3007CEB0F /* happyHourDeals.json */,
 			);
-			path = Resources;
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,12 +276,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CE820782C44848B007CEB0F /* home.JPG in Resources */,
-				8CE820742C4482B3007CEB0F /* happyHourDeals.json in Resources */,
+				8CE820BD2C4C62F4007CEB0F /* logo-happyto 2@3x.jpg in Resources */,
 				8CE820482C42F61E007CEB0F /* Assets.xcassets in Resources */,
+				8CE820BA2C4C62F4007CEB0F /* logo-happyto 2.JPG in Resources */,
+				8CE820CE2C4D86DE007CEB0F /* Main.storyboard in Resources */,
 				8CE8204B2C42F61E007CEB0F /* Base in Resources */,
-				8CE820462C42F61B007CEB0F /* Base in Resources */,
-				8CE820762C448435007CEB0F /* logo-happyTO.png in Resources */,
+				8CE820C72C4D769D007CEB0F /* LaunchScreen.storyboard in Resources */,
+				8CE820CB2C4D7BAF007CEB0F /* logo-cut.jpg in Resources */,
+				8CE820C02C4C62F4007CEB0F /* logo-happyTO.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +291,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE820BE2C4C62F4007CEB0F /* logo-happyto 2@3x.jpg in Resources */,
+				8CE820CC2C4D7BAF007CEB0F /* logo-cut.jpg in Resources */,
+				8CE820C82C4D76A0007CEB0F /* LaunchScreen.storyboard in Resources */,
+				8CE820CF2C4D86DF007CEB0F /* Main.storyboard in Resources */,
+				8CE820C12C4C62F4007CEB0F /* logo-happyTO.png in Resources */,
+				8CE820BB2C4C62F4007CEB0F /* logo-happyto 2.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +304,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE820BF2C4C62F4007CEB0F /* logo-happyto 2@3x.jpg in Resources */,
+				8CE820CD2C4D7BAF007CEB0F /* logo-cut.jpg in Resources */,
+				8CE820C92C4D76A0007CEB0F /* LaunchScreen.storyboard in Resources */,
+				8CE820D02C4D86DF007CEB0F /* Main.storyboard in Resources */,
+				8CE820C22C4C62F4007CEB0F /* logo-happyTO.png in Resources */,
+				8CE820BC2C4C62F4007CEB0F /* logo-happyto 2.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
